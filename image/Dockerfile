@@ -1,6 +1,6 @@
-FROM rethinkdb:1.16.0
+FROM rethinkdb:2.4.1
 
-MAINTAINER BinZhao <wo@zhaob.in>
+MAINTAINER RainyDev <contact.rainydev@gmail.com>
 
 RUN apt-get update && \
     apt-get install -yq curl && \
